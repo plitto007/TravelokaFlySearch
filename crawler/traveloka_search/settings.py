@@ -12,12 +12,13 @@ BOT_NAME = 'traveloka_search'
 SPIDER_MODULES = ['traveloka_search.spiders']
 NEWSPIDER_MODULE = 'traveloka_search.spiders'
 
+LOG_LEVEL = 'DEBUG'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'traveloka_search (+http://www.yourdomain.com)'
+#USER_AGENT = 'traveloka_search (+http://www.yourdomain.comfROBOTSTXT_OBEY)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
